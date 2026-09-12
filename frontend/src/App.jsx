@@ -1,6 +1,6 @@
 // import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import heroImg2 from './assets/elemn1.jpg'
+// import heroImg from './assets/hero.png'
+// import heroImg2 from './assets/elemn1.jpg'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 
@@ -19,7 +19,7 @@ function App() {
         <h1>Proyecto Medicion de huella de carbono</h1>
         <div className="hero">
 
-          <img src={element2} className="base" width="270" height="220" alt="" />
+          <img src={element2} className="base" width="400" height="220" alt="" />
          
    
         <br />
