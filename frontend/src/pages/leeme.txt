@@ -1,0 +1,17 @@
+Las "pages" son para las vistas que se describen.
+la vista home o inicio, loguearse, registrarse,
+cambiar contraseña, dashboard, etc.
+
+estos van a estar compuesto de componentes 
+
+
+PAGE loguearse
+│
+├── Navbar
+│
+├── contenido
+│   ├── componente
+│   ├── componente
+│   └── componente
+│
+└── Footer

@@ -1,37 +1,41 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import heroImg from './assets/hero.png'
+import heroImg2 from './assets/elemn1.jpg'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
+
+import element2 from './assets/element2.jpg'
+
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  
+  // const [count, setCount] = useState(0)
 
   return (
     <>
       <section id="center">
+        <h1>Proyecto Medicion de huella de carbono</h1>
         <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
+
+          <img src={element2} className="base" width="270" height="220" alt="" />
+         
+   
+        <br />
+
+        <p>Utilizando:</p>
+          <img src={reactLogo} alt="React logo" />
+          <img src={viteLogo}alt="Vite logo" />
         </div>
         <div>
-          <h1>Proyecto Medicion de huella de carbono</h1>
-          <p>
-            El frontend sera con <code>REACT</code> + <code>VITE</code>
-          </p>
+          <button className="buttonA">ingresar</button>
         </div>
         
       </section>
 
-      <section>
-
-      <button>registrarse</button>
-      <button>iniciar sesion</button>
-
-      </section>
-      
-      <div className="ticks"></div>
+{/*       
+      <div className="ticks"></div> */}
 
    
 

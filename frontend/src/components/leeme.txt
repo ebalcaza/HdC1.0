@@ -1,0 +1,7 @@
+Un componente es una pieza de interfaz
+por ejemplo
+Navbar, footer, loginForm, formRegistrarse, CardUsuario
+
+Es una porcion de codigo que se va a reutilizar en 
+las paginas que se necesiten, para mantener un estilo
+coherente en todas las vistas

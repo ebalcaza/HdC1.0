@@ -1,0 +1,67 @@
+
+12. layouts/
+
+Esta carpeta es muy útil cuando tenés diferentes tipos de páginas.
+
+Por ejemplo, las páginas públicas podrían tener:
+
+Navbar
+contenido
+Footer
+
+Mientras que las páginas privadas podrían tener:
+
+Sidebar
+Navbar
+contenido
+
+Podríamos crear:
+
+layouts/
+│
+├── PublicLayout.jsx
+└── PrivateLayout.jsx
+
+
+
+
+PublicLayout
+
+Para:
+
+Home
+Login
+Register
+ForgotPassword
+ResetPassword
+
+
+
+
+PrivateLayout
+
+Para:
+
+Dashboard
+Profile
+Settings
+Reports
+...
+
+La idea sería:
+
+PublicLayout
+│
+├── Navbar
+├── página actual
+└── Footer
+
+y:
+
+PrivateLayout
+│
+├── Sidebar
+├── Navbar
+└── página actual
+
+Esto evita repetir el mismo Navbar y Footer en todas las páginas.
