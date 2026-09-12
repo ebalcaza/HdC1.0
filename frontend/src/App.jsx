@@ -4,7 +4,7 @@
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 
-import element2 from './assets/element2.jpg'
+import element2 from './assets/logos/logo2-1100x600.webp'
 
 import './App.css'
 
