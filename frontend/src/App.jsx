@@ -24,6 +24,13 @@ function App() {
         
       </section>
 
+      <section>
+
+      <button>registrarse</button>
+      <button>iniciar sesion</button>
+
+      </section>
+      
       <div className="ticks"></div>
 
    
