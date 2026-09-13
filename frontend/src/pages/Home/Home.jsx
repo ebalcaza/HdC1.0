@@ -8,11 +8,11 @@ export default function Home() {
         
        
         
-         <div className='seccion2 '>
-            <div className='contenedorBotoneHome'>
+         <div className='seccion2  container'>
+            <div className='contenedorBotoneHome '>
 
-                <button className='btn  btn1 '>Loguearse</button>
-                <button className='btn btn1 '>Registrarse</button>
+                <button className='btn1  '>Loguearse</button>
+                <button className='btn1 '>Registrarse</button>
               </div>
         </div>
 

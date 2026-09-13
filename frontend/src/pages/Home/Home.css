@@ -44,7 +44,7 @@ margin:0;
 
 .seccion2{
     display: flex;
-    /* border:solid black 2px; */
+    border:solid black 2px;
     width:90%;
     min-height: 90vh;
     background-image: url("../../assets/banners/banner1-1900x1100.webp");
@@ -70,7 +70,7 @@ background-attachment: fixed;
 
 button.btn1
 {
-    border:solid black 2px;
+    border:solid red 2px;
     width: 100%;
     z-index: 1;
     position: relative;
@@ -78,9 +78,9 @@ button.btn1
     font-weight: bold;
     color: black;
 font-size: 1.2rem;
-text-shadow: tomato;
 
-      background: rgba(255, 255, 255, 0.295);
+
+      background: rgba(255, 255, 255, 0.548);
     backdrop-filter: blur(1px);
     -webkit-backdrop-filter: blur(10px);
 
@@ -92,6 +92,13 @@ text-shadow: tomato;
 
     /* cursor: pointer; */
 }
+button.btn1:hover{
+    
+      background: rgba(255, 255, 255, 0.849);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+}
 
 .contenedorBotoneHome{
     display: flex;
@@ -102,4 +109,8 @@ text-shadow: tomato;
     width: 30%;
     height: 50vh;
     gap:10px;
+border-radius: 2%;
+     background: rgba(250, 249, 249, 0.233);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(1px);
 }
