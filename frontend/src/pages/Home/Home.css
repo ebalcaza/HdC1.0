@@ -23,7 +23,7 @@ margin:0;
   flex-grow: 1;
  
   border:solid black 3px;
-
+  overflow:hidden;
 
 
   @media (max-width: 1024px) {
