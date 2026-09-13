@@ -1,0 +1,105 @@
+#root{
+margin:0;
+}
+.contenedorPrincipal{
+    background-color: blue;
+    border:solid blue 2px;
+    min-height: 100vh;
+    width: 100%;
+    margin:0;
+
+
+    padding: 2px 2px 2px;
+    gap: 3px;
+}
+
+
+#centerHome {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+    align-items: center;
+    justify-content: center;
+  flex-grow: 1;
+ 
+  border:solid black 3px;
+
+
+
+  @media (max-width: 1024px) {
+    padding: 3px 2px 2px;
+    gap: 3px;
+  }
+}
+.a1{
+    background-color: rgb(215, 230, 207);
+}
+
+.seccion1{
+    border:solid black 2px;
+    width:90%;
+    min-height: 10vh;
+    background-color: green;
+}
+
+.seccion2{
+    display: flex;
+    /* border:solid black 2px; */
+    width:90%;
+    min-height: 90vh;
+    background-image: url("../../assets/banners/banner1-1900x1100.webp");
+background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    background-color: rgb(211, 223, 210);
+    z-index: 2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.seccion3{
+    border:solid black 2px;
+    width:100%;
+    min-height: 5vh;
+}
+
+button.btn1
+{
+    border:solid black 2px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    background-color: transparent;
+    font-weight: bold;
+    color: black;
+font-size: 1.2rem;
+text-shadow: tomato;
+
+      background: rgba(255, 255, 255, 0.295);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(68, 66, 66, 0.76);
+    border-radius: 10px;
+
+    color: #141313;
+    padding: 10px 20px;
+
+    /* cursor: pointer; */
+}
+
+.contenedorBotoneHome{
+    display: flex;
+    flex-direction: column;
+    align-items: top ;
+    justify-content: center;
+    border:solid transparent 2px;
+    width: 30%;
+    height: 50vh;
+    gap:10px;
+}
