@@ -1,8 +1,10 @@
 import './Home.css'
 import element2 from '../../assets/logos/logoHojaRecorte2.webp'
 import element3 from '../../assets/logos/logoEcoPulse1.webp'
+import { useNavigate } from 'react-router' // 1. Importar el hook de navegación
 
 export default function Home() {
+    const navigate = useNavigate() // 2. Inicializar la función navigate
     return (
         <div className="a1   " id="centerHome">
          
@@ -39,12 +41,21 @@ export default function Home() {
                 </div>
 
              </div>
+        <div className='contenedorBotoneHome '>
+         <button 
+              className=' btn1' 
+            onClick={() => navigate('/Login')} // 3. Agregar el evento onClick
+        >
+          Ingresar
+        </button>
 
-            <div className='contenedorBotoneHome '>
-                        <button className=' btn1'>Ingresar</button>
-                        <button className=' btn1'>Registrarse</button>
-                    </div>
-
+            <button 
+            className=' btn1'
+            onClick={() => navigate('/registro')} // (Opcional) Para cuando crees la vista de registro
+            >
+            Registrarse
+            </button>
+        </div>
             
                 
 

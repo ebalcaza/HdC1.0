@@ -1,0 +1,57 @@
+﻿backend/
+├── Domain/             <-- Capa 1: Dominio (Entidades y Modelos)
+│   └── Producto.cs
+├── Data/               <-- Capa 2: Datos / Acceso a Datos (DbContext e interfaces)
+│   └── AppDbContext.cs
+├── Business/           <-- Capa 3: Negocio / Servicios (Lógica de la aplicación)
+│   ├── IProductoService.cs
+│   └── ProductoService.cs
+└── Controllers/        <-- Capa 4: Presentación / API (Controllers y Endpoints)
+    └── ProductoController.cs
+
+Descargar e instalar .NET SDK:
+Instalación.Ve a la página oficial de Microsoft: 
+
+https://dotnet.microsoft.com/es-es/download/dotnet/thank-you/sdk-10.0.401-windows-x64-installer
+Descarga  e instala la versión .NET SDK 
+(se recomienda la versión 8.0 LTS o 9.0).
+Reinicia la terminal (o el editor como VS Code) después de instalar 
+para que reconozca las nuevas variables de entorno.
+
+para crear un proyecto web
+
+dotnet new webapi 
+
+
+
+Instalar Entity Framework Core y SQL Server:
+
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+dotnet add package Swashbuckle.AspNetCore
+
+Verificar que el servidor ejecuta
+dotnet run
+
+Ver�s en la consola las direcciones locales asignadas a tu API
+ (por ejemplo https://localhost:7123 o http://localhost:5200). 
+Para detener la ejecuci�n, presiona Ctrl + C.
+
+cadena de conexion para sqlserver
+
+reemplazar por esto en appsetting.json
+
+
+{
+  "ConnectionStrings": {
+  "DefaultConnection": "Server=localhost\\SQLEXPRESS;Database=HdCDataBase;Trusted_Connection=True;TrustServerCertificate=True;"  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
+
+
